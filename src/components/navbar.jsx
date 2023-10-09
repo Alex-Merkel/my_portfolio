@@ -2,23 +2,24 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
-        <div class="container">
-            <a href="#intro" class="navbar-brand" id="nav-header">Portfolio</a>
+    <nav className="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div className="container">
+            <a href="#intro" className="navbar-brand" id="nav-header">Portfolio</a>
             <button
-                class="navbar-toggler"
+                className="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#navmenu">
-                <span class="navbar-toggler-icon"/>
+                data-bs-target="#navmenu"
+            >
+                <span className="navbar-toggler-icon"/>
             </button>
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="#projects" class="nav-link">Projects</a>
+            <div className="collapse navbar-collapse" id="navmenu">
+                <ul className="navbar navbar-nav ms-auto">
+                    <li className="nav-item">
+                        <a href="#projects" className="nav-link">Projects</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
+                    <li className="nav-item">
+                        <a href="#about" className="nav-link">About</a>
                     </li>             
                 </ul>
             </div>
