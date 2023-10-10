@@ -79,7 +79,7 @@ const projectData = [
     link: 'https://budget-unl0.onrender.com/',
     description:
       'A dynamic budgeting application using Flask, Python, SQL, JavaScript, PostgreSQL, HTML, and CSS, featuring dynamic divs/containers that enable users to easily track and manage their finances. (Be patient please, Render spins down with inactivity)',
-    image: 'src/assets/Budget.jpg',
+    image: '/assets/Budget.jpg',
     altText: 'A handful of 100 bills fanned out',
   },
   {
