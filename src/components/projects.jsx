@@ -88,7 +88,7 @@ const projectData = [
     link: 'https://quiet-entremet-f8601f.netlify.app/',
     description:
       'Comprehensive wellness tracking application utilizing React, TypeScript, Flask, Python, HTML, CSS, SQL, PostgreSQL, Auth0, and the Nutritionix API, featuring a user-friendly interface for tracking food and water intake, complete with an intuitive autocomplete search bar for food selection.',
-    image: 'src/assets/Wellness.jpg',
+    image: '/assets/Wellness.jpg',
     altText: 'Sunset in mountain landscape with someone stretching / doing yoga',
   },
   {
@@ -97,7 +97,7 @@ const projectData = [
     link: 'https://ubiquitous-entremet-ec2600.netlify.app/#/',
     description:
       'One of my early projects, a user-friendly library/book catalog using React. Providing a glimpse into my journey of growth and proficiency in web development.',
-    image: 'src/assets/Library_React.jpg',
+    image: '/assets/Library_React.jpg',
     altText: 'Inside of multistory library, people and bookcases everywhere',
   },
   {
@@ -106,7 +106,7 @@ const projectData = [
     link: 'https://smooth-forest-roquefort.glitch.me/',
     description:
       'Another early project, a similar user-friendly library/book catalog. This is also another glimpse into my journey of growth and learning. However, this uses Flask instead of React.',
-    image: 'src/assets/Library_Flask.jpg',
+    image: '/assets/Library_Flask.jpg',
     altText: 'First person point of view, reading a book with mountain landscape in background',
   },
 ];

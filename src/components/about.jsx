@@ -7,7 +7,7 @@ const About = () => {
         <div className="row align-items-center">
           <div className="col-md-6 text-center">
             <h1 className="text-3xl font-bold">Alex Merkel</h1>
-            <img src="src/assets/me.png" alt="Alex's Photo" className="img-fluid rounded-circle mt-4"/>
+            <img src="/assets/me.png" alt="Alex's Photo" className="img-fluid rounded-circle mt-4"/>
             <div className="mt-3">
               <a href="https://www.linkedin.com/in/alex-merkel-8750b0274/" className="text-dark me-3">
                 <i className="fab fa-linkedin fa-2x icon"></i>
