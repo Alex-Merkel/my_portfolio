@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section id="about" className="py-5 mt-5">
+    <section id="about" className="py-5">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-6 text-center">

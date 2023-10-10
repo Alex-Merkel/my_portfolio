@@ -13,7 +13,6 @@ const Projects = () => {
         const response = await fetch(`https://api.github.com/repos/Alex-Merkel/${repoName}`);
         if (response.status === 200) {
           const repositoryData = await response.json();
-          console.log(repositoryData.svn_url);
           return { ...projectData.find((project) => project.repo === repoName), svn_url: repositoryData.svn_url };
         } else {
           throw new Error(`Failed to fetch repository data for ${repoName}: ${response.status}`);
@@ -29,32 +28,32 @@ const Projects = () => {
   }, []);
 
   return (
-    <div id="projects" className="p-3 mt-5">
-      <h2 className="text-center mb-4">Check out some of my work</h2>
+    <div id="projects" className="p-3 pt-5">
+      <h2 className="text-center mb-3 underline-title">Check out some of my work:</h2>
       <div className="container">
         <div className="row">
           {repositories.map((project, index) => (
-            <div className="col-sm-6 mb-5" key={index}>
+            <div className="col-md-6 mb-5" key={index}>
               <div className="image-container d-flex flex-column justify-content-between align-items-center">
                 <h2 className="text-center m-3">
                   <a href={project.link} className="project-link"> 
                     {project.title}
                   </a>
                 </h2>
-                <p className="project-description text-center">{project.description}</p>
-                <div className="d-flex align-items-center">
+                <p className="project-description text-center mb-5">{project.description}</p>
+                <div className="d-flex w-100 justify-content-between align-items-center">
                   <a href={project.link} className="pic-link">
                     <img
                       src={project.image}
                       alt={project.altText}
-                      className="img-fluid p-0 custom-image"
+                      className="img-fluid p-0 custom-image img-thumbnail"
                     />
                   </a>
                   <a href={project.svn_url} className="github-link" target="_blank" rel="noopener noreferrer">
                     <img
                       src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
                       alt="GitHub Logo"
-                      className="github-logo"
+                      className="github-logo img-thumbnail"
                     />
                   </a>
                 </div>
@@ -64,7 +63,8 @@ const Projects = () => {
         </div>
       </div>
     </div>
-  );  
+  );
+  
 };
 
 export default Projects;
