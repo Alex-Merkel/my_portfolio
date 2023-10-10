@@ -67,6 +67,8 @@ const Projects = () => {
   
 };
 
+
+
 export default Projects;
 
 // Project Data (images, links, etc.):
