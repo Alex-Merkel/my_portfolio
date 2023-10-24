@@ -92,21 +92,21 @@ const projectData = [
     altText: 'Sunset in mountain landscape with someone stretching / doing yoga',
   },
   {
-    title: 'Library (React)',
-    repo: 'library_project_react',
-    link: 'https://ubiquitous-entremet-ec2600.netlify.app/#/',
+    title: 'Blackjack',
+    repo: 'Blackjack',
+    link: 'https://blackjack-l5du.onrender.com/',
     description:
-      'One of my early projects, a user-friendly library/book catalog using React. Providing a glimpse into my journey of growth and proficiency in web development.',
-    image: '/assets/Library_React.jpg',
-    altText: 'Inside of multistory library, people and bookcases everywhere',
+      'An engaging and immersive Blackjack game brought to life through a blend of powerful technologies. This project utilizes Flask and Python for the server-side logic, while JavaScript, HTML, Bootstrap, and CSS work harmoniously to create a dynamic and visually stunning gaming experience.',
+    image: '/assets/Blackjack.PNG',
+    altText: 'Overhead view of a blackjack table with cards and poker chips',
   },
   {
-    title: 'Library (Flask)',
-    repo: 'books_app',
-    link: 'https://smooth-forest-roquefort.glitch.me/',
+    title: 'Portfolio',
+    repo: 'my_portfolio',
+    link: 'https://fabulous-fox-880e66.netlify.app/',
     description:
-      'Another early project, a similar user-friendly library/book catalog. This is also another glimpse into my journey of growth and learning. However, this uses Flask instead of React.',
-    image: '/assets/Library_Flask.jpg',
-    altText: 'First person point of view, reading a book with mountain landscape in background',
+      "This is the portfolio site you're currently exploring! At its core, React and JavaScript drive the dynamic behavior, while Vite accelerates the development process. The site's responsive layout is built with HTML, Bootstrap, and CSS, ensuring a seamless experience across various devices.",
+    image: '/assets/Portfolio.PNG',
+    altText: 'Screenshot of portfolio homepage, says "Hi, I am Alex."',
   },
 ];
